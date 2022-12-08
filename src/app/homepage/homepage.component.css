@@ -60,6 +60,8 @@ body{
       font-family: Copperplate, Papyrus, fantasy;
   }
   
+/*Tablet*/
+
   @media screen and (max-width: 768px) {
       button, .start {
           margin-left: 50px;        
@@ -76,8 +78,51 @@ body{
      .theme{
         width: 80%;
         padding: 0%;
-        margin-left: 50px;
+        margin-left: 45px;
      }
 
   }
 
+  @media screen and (max-width: 768px){
+    .dev{
+        width: 80%;
+        padding: 0%;
+        margin-left: 50px;
+        margin-top: auto;
+
+    }
+     
+  }
+
+ /*Cell*/ 
+
+ @media screen and (max-width: 1080px) {
+    button, .start {
+        margin-left: 60px;        
+        width: 80%;
+        padding: 0%;
+        text-align: center;
+        margin-top: 0px;
+
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .theme{
+       width: 80%;
+       padding: 0%;
+       margin-left: 60px;
+
+    }
+}
+
+@media screen and (max-width: 1080px){
+    .dev{
+        width: 80%;
+        padding: 0%;
+        margin-left: 50px;
+        margin-top: auto;
+
+    }
+     
+  }
